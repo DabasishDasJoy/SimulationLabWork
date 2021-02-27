@@ -1,1 +1,4 @@
 # SimulationLabWork
+I wrote a code that simulates Poisson random variables by employing the direct method based on exponential inter-arrival times and show arrival time also. I have used a while-loop to implement the method. For an empirical test, the code also calculates the mean and variance of a collection of Poisson variables. For a large enough number of variables, the sample mean and the variance will closely agree with each other, converging to the same value. My C code uses rand(), the standard pseudo-random number function in C, which is known for failing certain tests of randomness. The function is adequate for regular simulation work. But it gives poor results for large number of simulations. Replace this function with another pseudo-random number generator.
+
+I wrote the code with the help of https://hpaulkeeler.com/simulating-poisson-random-variables-direct-method/
